@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Verificar el correcto funcionamiento de los modulos de la app opencart" skipped="0" tests="3" time="29.7" timestamp="2022-05-19 12:55:29"><testcase name="Verificar ingreso correcto"/><testcase name="Buscar un cliente registrado en la app"/><testcase name="Ver una orden de servicio"/></testsuite>
