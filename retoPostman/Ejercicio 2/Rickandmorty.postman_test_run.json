@@ -1,0 +1,190 @@
+{
+	"id": "078d5e8b-db2f-4ead-abef-3c305502b053",
+	"name": "Rickandmorty",
+	"timestamp": "2022-05-25T19:31:57.130Z",
+	"collection_id": "12670062-eef42df1-3147-43cd-8fbf-01fe4a25d4db",
+	"folder_id": 0,
+	"environment_id": "12670062-f31d1934-75d4-461f-8bd9-65458cff67cb",
+	"totalPass": 12,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "885815d5-0a5c-4751-8e3e-960777b58a37",
+			"name": "Person list",
+			"url": "https://rickandmortyapi.com/api/character",
+			"time": 216,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"validar nombre de personaje conenido en el arreglo": true,
+				"Cantidad de paginas": true,
+				"Tiempo de respuesta menor a 600ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"validar nombre de personaje conenido en el arreglo": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Cantidad de paginas": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Tiempo de respuesta menor a 600ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				216
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"validar nombre de personaje conenido en el arreglo": true,
+					"Cantidad de paginas": true,
+					"Tiempo de respuesta menor a 600ms": true
+				}
+			]
+		},
+		{
+			"id": "b70c2906-e519-4ba7-9504-d04cc269823f",
+			"name": "Person list page",
+			"url": "https://rickandmortyapi.com/api/character?page=2",
+			"time": 207,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"validar nombre de personaje conenido en el arreglo": true,
+				"Validar el tipo": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"validar nombre de personaje conenido en el arreglo": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Validar el tipo": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				207
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"validar nombre de personaje conenido en el arreglo": true,
+					"Validar el tipo": true
+				}
+			]
+		},
+		{
+			"id": "04e5be42-ea42-4459-ade2-d08e535c6b1c",
+			"name": "Person id",
+			"url": "https://rickandmortyapi.com/api/character/5",
+			"time": 194,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Validar nombre de location": true,
+				"Validar fecha de creacion": true,
+				"Validar que la estructura de respuesta no contenga el campo:error": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Validar nombre de location": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Validar fecha de creacion": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Validar que la estructura de respuesta no contenga el campo:error": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				194
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Validar nombre de location": true,
+					"Validar fecha de creacion": true,
+					"Validar que la estructura de respuesta no contenga el campo:error": true
+				}
+			]
+		},
+		{
+			"id": "572075c5-2f3e-41c1-8845-c0f04553f454",
+			"name": "Person id empty",
+			"url": "https://rickandmortyapi.com/api/character/44444444444444444444444,3333333333333333333333333",
+			"time": 297,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Validar que el array este vacio": true
+			},
+			"testPassFailCounts": {
+				"Validar que el array este vacio": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				297
+			],
+			"allTests": [
+				{
+					"Validar que el array este vacio": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 914,
+	"collection": {
+		"requests": [
+			{
+				"id": "885815d5-0a5c-4751-8e3e-960777b58a37",
+				"method": "GET"
+			},
+			{
+				"id": "b70c2906-e519-4ba7-9504-d04cc269823f",
+				"method": "GET"
+			},
+			{
+				"id": "04e5be42-ea42-4459-ade2-d08e535c6b1c",
+				"method": "GET"
+			},
+			{
+				"id": "572075c5-2f3e-41c1-8845-c0f04553f454",
+				"method": "GET"
+			}
+		]
+	}
+}

@@ -1,0 +1,541 @@
+{
+	"id": "cdf387f3-1caa-466f-9d63-2c665113661b",
+	"name": "BOOKS",
+	"timestamp": "2022-05-25T19:30:11.056Z",
+	"collection_id": "12670062-b69788ea-96e3-4474-9930-2d19a67d8e65",
+	"folder_id": 0,
+	"environment_id": "12670062-89a7348e-b55e-4e5a-8c66-e5a0671af33c",
+	"totalPass": 33,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "873b9e03-2c37-41f8-b2bd-f057f70a3560",
+			"name": "Books status",
+			"url": "https://simple-books-api.glitch.me/status",
+			"time": 222,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Validar status ok": true,
+				"Tiempo de respuesta es menor a 300ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Validar status ok": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Tiempo de respuesta es menor a 300ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				222
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Validar status ok": true,
+					"Tiempo de respuesta es menor a 300ms": true
+				}
+			]
+		},
+		{
+			"id": "3fc0e678-66c2-4d62-924b-ea557efa87d1",
+			"name": "Books list",
+			"url": "https://simple-books-api.glitch.me/books",
+			"time": 214,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Validar que la estructura del body, contenga el campo type": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Validar que la estructura del body, contenga el campo type": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				214
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Validar que la estructura del body, contenga el campo type": true
+				}
+			]
+		},
+		{
+			"id": "fc5c315f-98ee-4cf6-bd5e-7d59af15919b",
+			"name": "Get a single book id",
+			"url": "https://simple-books-api.glitch.me/books/1",
+			"time": 322,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Tiene stock disponible": true,
+				"Validar typo de libro": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Tiene stock disponible": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Validar typo de libro": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				322
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Tiene stock disponible": true,
+					"Validar typo de libro": true
+				}
+			]
+		},
+		{
+			"id": "114b6ec5-641a-47f7-b603-50223066f8ad",
+			"name": "Authentication",
+			"url": "https://simple-books-api.glitch.me/api-clients",
+			"time": 229,
+			"responseCode": {
+				"code": 409,
+				"name": "Conflict"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Validar mensaje de usuario ya registrado": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Validar mensaje de usuario ya registrado": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				229
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Validar mensaje de usuario ya registrado": true
+				}
+			]
+		},
+		{
+			"id": "73e04e85-c001-4992-aced-89ca974b3e66",
+			"name": "Book  orders send",
+			"url": "https://simple-books-api.glitch.me/orders",
+			"time": 397,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 200": true,
+				" prueba comparacion estructura body ": true,
+				"Validar que el campo created es true ": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				" prueba comparacion estructura body ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Validar que el campo created es true ": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				397
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					" prueba comparacion estructura body ": true,
+					"Validar que el campo created es true ": true
+				}
+			]
+		},
+		{
+			"id": "17c96f2f-a5eb-4e2d-a8f2-473e48dff9d6",
+			"name": "Book  orders send faild",
+			"url": "https://simple-books-api.glitch.me/orders",
+			"time": 249,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true,
+				" prueba comparacion estructura body ": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				" prueba comparacion estructura body ": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				249
+			],
+			"allTests": [
+				{
+					"Status code is 400": true,
+					" prueba comparacion estructura body ": true
+				}
+			]
+		},
+		{
+			"id": "bc0aeed4-2005-4131-bb8f-f35385b98bc8",
+			"name": "Book all  orders",
+			"url": "https://simple-books-api.glitch.me/orders",
+			"time": 215,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Tiempo de respuesta es menor a 2000ms": true,
+				"Validar que la estructura del body, contenga el campo type": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Tiempo de respuesta es menor a 2000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Validar que la estructura del body, contenga el campo type": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				215
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Tiempo de respuesta es menor a 2000ms": true,
+					"Validar que la estructura del body, contenga el campo type": true
+				}
+			]
+		},
+		{
+			"id": "82d1f301-1565-409d-874f-39a4e58fdf2b",
+			"name": "Book all  orders faild",
+			"url": "https://simple-books-api.glitch.me/orderss",
+			"time": 211,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 404": true,
+				"Tiempo de respuesta es menor a 2000ms": true,
+				"Validar que la estructura de respuesta, contenga el campo !DOCTYPE html": true
+			},
+			"testPassFailCounts": {
+				"Status code is 404": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Tiempo de respuesta es menor a 2000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Validar que la estructura de respuesta, contenga el campo !DOCTYPE html": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				211
+			],
+			"allTests": [
+				{
+					"Status code is 404": true,
+					"Tiempo de respuesta es menor a 2000ms": true,
+					"Validar que la estructura de respuesta, contenga el campo !DOCTYPE html": true
+				}
+			]
+		},
+		{
+			"id": "bf967872-3461-4772-ae0b-a9f1c2541ea9",
+			"name": "Book   orders id",
+			"url": "https://simple-books-api.glitch.me/orders/zktHcPzpUvp48uO9J4OHp",
+			"time": 220,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Validar que la estructura del body, contenga el campo createdBy": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Validar que la estructura del body, contenga el campo createdBy": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				220
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Validar que la estructura del body, contenga el campo createdBy": true
+				}
+			]
+		},
+		{
+			"id": "032d87f1-a884-4dd3-a180-57a4391e8890",
+			"name": "Update book   orders",
+			"url": "https://simple-books-api.glitch.me/orders/zktHcPzpUvp48uO9J4OHp",
+			"time": 242,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Status code is 204": true,
+				"Tiempo de respuesta es menor a 300ms": true,
+				" prueba comparacion estructura body ": true
+			},
+			"testPassFailCounts": {
+				"Status code is 204": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Tiempo de respuesta es menor a 300ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				" prueba comparacion estructura body ": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				242
+			],
+			"allTests": [
+				{
+					"Status code is 204": true,
+					"Tiempo de respuesta es menor a 300ms": true,
+					" prueba comparacion estructura body ": true
+				}
+			]
+		},
+		{
+			"id": "67ba3d8f-5b31-4e7d-baf2-038306206f93",
+			"name": "Update book   orders faild",
+			"url": "https://simple-books-api.glitch.me/orders/Cnt",
+			"time": 221,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 404": true,
+				"Tiempo de respuesta es menor a 300ms": true,
+				" prueba comparacion estructura body ": true
+			},
+			"testPassFailCounts": {
+				"Status code is 404": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Tiempo de respuesta es menor a 300ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				" prueba comparacion estructura body ": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				221
+			],
+			"allTests": [
+				{
+					"Status code is 404": true,
+					"Tiempo de respuesta es menor a 300ms": true,
+					" prueba comparacion estructura body ": true
+				}
+			]
+		},
+		{
+			"id": "f1668137-7265-4760-8d6d-e109928ce102",
+			"name": "Delete book   orders",
+			"url": "https://simple-books-api.glitch.me/orders/zktHcPzpUvp48uO9J4OHp",
+			"time": 308,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Validar que la estructura de respuesta no contenga el campo:error": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Validar que la estructura de respuesta no contenga el campo:error": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				308
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Validar que la estructura de respuesta no contenga el campo:error": true
+				}
+			]
+		},
+		{
+			"id": "650cf6b8-498e-4e0f-b1af-742131ad3461",
+			"name": "Delete book   orders faild",
+			"url": "https://simple-books-api.glitch.me/orders/Cnt",
+			"time": 314,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 404": true,
+				"Validar que la estructura de respuesta no contenga el campo:error": true
+			},
+			"testPassFailCounts": {
+				"Status code is 404": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Validar que la estructura de respuesta no contenga el campo:error": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				314
+			],
+			"allTests": [
+				{
+					"Status code is 404": true,
+					"Validar que la estructura de respuesta no contenga el campo:error": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 3364,
+	"collection": {
+		"requests": [
+			{
+				"id": "873b9e03-2c37-41f8-b2bd-f057f70a3560",
+				"method": "GET"
+			},
+			{
+				"id": "3fc0e678-66c2-4d62-924b-ea557efa87d1",
+				"method": "GET"
+			},
+			{
+				"id": "fc5c315f-98ee-4cf6-bd5e-7d59af15919b",
+				"method": "GET"
+			},
+			{
+				"id": "114b6ec5-641a-47f7-b603-50223066f8ad",
+				"method": "POST"
+			},
+			{
+				"id": "73e04e85-c001-4992-aced-89ca974b3e66",
+				"method": "POST"
+			},
+			{
+				"id": "17c96f2f-a5eb-4e2d-a8f2-473e48dff9d6",
+				"method": "POST"
+			},
+			{
+				"id": "bc0aeed4-2005-4131-bb8f-f35385b98bc8",
+				"method": "GET"
+			},
+			{
+				"id": "82d1f301-1565-409d-874f-39a4e58fdf2b",
+				"method": "GET"
+			},
+			{
+				"id": "bf967872-3461-4772-ae0b-a9f1c2541ea9",
+				"method": "GET"
+			},
+			{
+				"id": "032d87f1-a884-4dd3-a180-57a4391e8890",
+				"method": "PATCH"
+			},
+			{
+				"id": "67ba3d8f-5b31-4e7d-baf2-038306206f93",
+				"method": "PATCH"
+			},
+			{
+				"id": "f1668137-7265-4760-8d6d-e109928ce102",
+				"method": "DELETE"
+			},
+			{
+				"id": "650cf6b8-498e-4e0f-b1af-742131ad3461",
+				"method": "DELETE"
+			}
+		]
+	}
+}
