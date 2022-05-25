@@ -1,0 +1,215 @@
+{
+	"info": {
+		"_postman_id": "aa7aaf14-9b5f-4dd7-97a7-153575c74d01",
+		"name": "Rickandmorty",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "12670062"
+	},
+	"item": [
+		{
+			"name": "Person list",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"var jsonDato = pm.response.json();\r",
+							"const idArreglo = jsonDato.results.find( x => x.id == 20);\r",
+							"\r",
+							"console.log(idArreglo);\r",
+							"\r",
+							"pm.test(\"validar nombre de personaje conenido en el arreglo\", () => {\r",
+							"    pm.expect(idArreglo.name).to.eql(\"Ants in my Eyes Johnson\");\r",
+							"})\r",
+							"\r",
+							"pm.test(\"Cantidad de paginas\", () => {\r",
+							"pm.expect(jsonDato.info.pages).to.eql(42);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Tiempo de respuesta menor a 600ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(600);\r",
+							"});\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}",
+					"host": [
+						"{{baseUrl}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Person list page",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"const jsonDato = pm.response.json();\r",
+							"const idArreglo = jsonDato.results.find( x => x.id == 22);\r",
+							"\r",
+							"console.log(idArreglo);\r",
+							"\r",
+							"pm.test(\"validar nombre de personaje conenido en el arreglo\", () => {\r",
+							"    pm.expect(idArreglo.name).to.eql(\"Aqua Rick\");\r",
+							"})\r",
+							"\r",
+							"pm.test(\"Validar el tipo\", () => {\r",
+							"pm.expect(idArreglo.type).to.eql(\"Fish-Person\");\r",
+							"});\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}?page={{personPage}}",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "{{personPage}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Person id",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"const jsonDato = pm.response.json();\r",
+							"\r",
+							"console.log(jsonDato);\r",
+							"\r",
+							"\r",
+							"pm.test(\"Validar nombre de location\", () => {\r",
+							"pm.expect(jsonDato.location.name).to.eql(\"Earth (Replacement Dimension)\");\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Validar fecha de creacion\", () => {\r",
+							"pm.expect(jsonDato.created).to.eql(\"2017-11-04T19:26:56.301Z\");\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Validar que la estructura de respuesta no contenga el campo:error\", ()=>{\r",
+							"     pm.expect(pm.response.text()).to.not.include(\"error\");\r",
+							"});\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/{{personId}}",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"{{personId}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Person id empty",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"const jsonDato = pm.response.json();\r",
+							"\r",
+							"console.log(jsonDato.length)\r",
+							"\r",
+							"pm.test(\"Validar que el array este vacio\", ()=>{\r",
+							"    pm.expect(jsonDato).to.not.include(\"id\")\r",
+							"});\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/{{personsid's}}",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"{{personsid's}}"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "https://rickandmortyapi.com/api/character",
+			"type": "string"
+		}
+	]
+}
