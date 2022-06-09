@@ -1,0 +1,81 @@
+timeStamp	elapsed	label	responseCode	responseMessage	threadName	dataType	success	failureMessage	bytes	sentBytes	grpThreads	allThreads	URL	Latency	IdleTime	Connect
+1654791014470	1877	1-Home Blazedemo	200	OK	Flujo compra de tiquetes 1-4	text	false	The operation lasted too long: It took 1,877 milliseconds, but should not have lasted longer than 600 milliseconds.	1465	389	20	20	https://www.blazedemo.com/	1876	0	1604
+1654791014928	1441	1-Home Blazedemo	200	OK	Flujo compra de tiquetes 1-14	text	false	The operation lasted too long: It took 1,441 milliseconds, but should not have lasted longer than 600 milliseconds.	1425	389	20	20	https://www.blazedemo.com/	1440	0	1149
+1654791016513	616	1-Home Blazedemo	200	OK	Flujo compra de tiquetes 1-15	text	false	The operation lasted too long: It took 616 milliseconds, but should not have lasted longer than 600 milliseconds.	1557	389	20	20	https://www.blazedemo.com/	616	0	311
+1654791016963	573	1-Home Blazedemo	200	OK	Flujo compra de tiquetes 1-11	text	true		1440	389	20	20	https://www.blazedemo.com/	573	0	307
+1654791018390	637	1-Home Blazedemo	200	OK	Flujo compra de tiquetes 1-7	text	false	The operation lasted too long: It took 637 milliseconds, but should not have lasted longer than 600 milliseconds.	1478	389	20	20	https://www.blazedemo.com/	636	0	312
+1654791019453	585	1-Home Blazedemo	200	OK	Flujo compra de tiquetes 1-16	text	true		1347	389	20	20	https://www.blazedemo.com/	585	0	307
+1654791019801	574	1-Home Blazedemo	200	OK	Flujo compra de tiquetes 1-1	text	true		1358	389	20	20	https://www.blazedemo.com/	573	0	317
+1654791021922	563	1-Home Blazedemo	200	OK	Flujo compra de tiquetes 1-12	text	true		1441	389	20	20	https://www.blazedemo.com/	563	0	312
+1654791022507	565	1-Home Blazedemo	200	OK	Flujo compra de tiquetes 1-10	text	true		1481	389	20	20	https://www.blazedemo.com/	565	0	319
+1654791022558	578	1-Home Blazedemo	200	OK	Flujo compra de tiquetes 1-13	text	true		1511	389	20	20	https://www.blazedemo.com/	578	0	301
+1654791023305	572	1-Home Blazedemo	200	OK	Flujo compra de tiquetes 1-20	text	true		1319	389	20	20	https://www.blazedemo.com/	572	0	320
+1654791025230	572	1-Home Blazedemo	200	OK	Flujo compra de tiquetes 1-18	text	true		1561	389	20	20	https://www.blazedemo.com/	572	0	293
+1654791026845	657	1-Home Blazedemo	200	OK	Flujo compra de tiquetes 1-17	text	false	The operation lasted too long: It took 657 milliseconds, but should not have lasted longer than 600 milliseconds.	1325	389	20	20	https://www.blazedemo.com/	657	0	315
+1654791028050	263	2-Seleccionar Ciudades	200	OK	Flujo compra de tiquetes 1-15	text	true		1438	544	20	20	https://www.blazedemo.com/reserve.php	262	0	0
+1654791030326	590	1-Home Blazedemo	200	OK	Flujo compra de tiquetes 1-6	text	true		1546	389	20	20	https://www.blazedemo.com/	590	0	310
+1654791033253	255	2-Seleccionar Ciudades	200	OK	Flujo compra de tiquetes 1-1	text	true		1443	544	20	20	https://www.blazedemo.com/reserve.php	255	0	0
+1654791033036	647	1-Home Blazedemo	200	OK	Flujo compra de tiquetes 1-8	text	false	The operation lasted too long: It took 647 milliseconds, but should not have lasted longer than 600 milliseconds.	1431	389	20	20	https://www.blazedemo.com/	647	0	314
+1654791034632	682	1-Home Blazedemo	200	OK	Flujo compra de tiquetes 1-2	text	false	The operation lasted too long: It took 682 milliseconds, but should not have lasted longer than 600 milliseconds.	1486	389	20	20	https://www.blazedemo.com/	679	0	324
+1654791036332	304	2-Seleccionar Ciudades	200	OK	Flujo compra de tiquetes 1-7	text	true		1635	544	20	20	https://www.blazedemo.com/reserve.php	303	0	0
+1654791036667	641	1-Home Blazedemo	200	OK	Flujo compra de tiquetes 1-3	text	false	The operation lasted too long: It took 641 milliseconds, but should not have lasted longer than 600 milliseconds.	1514	389	20	20	https://www.blazedemo.com/	640	0	322
+1654791037608	285	2-Seleccionar Ciudades	200	OK	Flujo compra de tiquetes 1-13	text	true		1596	544	20	20	https://www.blazedemo.com/reserve.php	284	0	0
+1654791038043	265	2-Seleccionar Ciudades	200	OK	Flujo compra de tiquetes 1-20	text	true		1506	544	20	20	https://www.blazedemo.com/reserve.php	264	0	0
+1654791038923	282	2-Seleccionar Ciudades	200	OK	Flujo compra de tiquetes 1-14	text	true		1463	544	20	20	https://www.blazedemo.com/reserve.php	281	0	0
+1654791040007	277	3-Seleccionar Vuelo	200	OK	Flujo compra de tiquetes 1-15	text	true		1677	602	20	20	https://www.blazedemo.com/purchase.php	276	0	0
+1654791039672	763	1-Home Blazedemo	200	OK	Flujo compra de tiquetes 1-5	text	false	The operation lasted too long: It took 763 milliseconds, but should not have lasted longer than 600 milliseconds.	1470	389	20	20	https://www.blazedemo.com/	762	0	312
+1654791040440	562	1-Home Blazedemo	200	OK	Flujo compra de tiquetes 1-9	text	true		1395	389	20	20	https://www.blazedemo.com/	562	0	311
+1654791040959	642	1-Home Blazedemo	200	OK	Flujo compra de tiquetes 1-19	text	false	The operation lasted too long: It took 642 milliseconds, but should not have lasted longer than 600 milliseconds.	1436	389	20	20	https://www.blazedemo.com/	641	0	303
+1654791041940	363	2-Seleccionar Ciudades	200	OK	Flujo compra de tiquetes 1-6	text	true		1564	544	20	20	https://www.blazedemo.com/reserve.php	363	0	0
+1654791043259	470	2-Seleccionar Ciudades	200	OK	Flujo compra de tiquetes 1-18	text	true		1639	544	20	20	https://www.blazedemo.com/reserve.php	469	0	0
+1654791043932	349	2-Seleccionar Ciudades	200	OK	Flujo compra de tiquetes 1-8	text	true		1628	544	20	20	https://www.blazedemo.com/reserve.php	348	0	0
+1654791046888	253	2-Seleccionar Ciudades	200	OK	Flujo compra de tiquetes 1-16	text	true		1395	544	20	20	https://www.blazedemo.com/reserve.php	253	0	0
+1654791047219	257	2-Seleccionar Ciudades	200	OK	Flujo compra de tiquetes 1-2	text	true		1387	544	20	20	https://www.blazedemo.com/reserve.php	257	0	0
+1654791048979	269	2-Seleccionar Ciudades	200	OK	Flujo compra de tiquetes 1-11	text	true		1490	544	20	20	https://www.blazedemo.com/reserve.php	268	0	0
+1654791049961	255	2-Seleccionar Ciudades	200	OK	Flujo compra de tiquetes 1-4	text	true		1555	544	20	20	https://www.blazedemo.com/reserve.php	255	0	0
+1654791052812	334	2-Seleccionar Ciudades	200	OK	Flujo compra de tiquetes 1-17	text	true		1535	544	20	20	https://www.blazedemo.com/reserve.php	334	0	0
+1654791054323	256	3-Seleccionar Vuelo	200	OK	Flujo compra de tiquetes 1-18	text	true		1659	602	20	20	https://www.blazedemo.com/purchase.php	255	0	0
+1654791055442	319	2-Seleccionar Ciudades	200	OK	Flujo compra de tiquetes 1-12	text	true		1523	544	20	20	https://www.blazedemo.com/reserve.php	319	0	0
+1654791058774	274	3-Seleccionar Vuelo	200	OK	Flujo compra de tiquetes 1-14	text	true		1823	602	20	20	https://www.blazedemo.com/purchase.php	274	0	0
+1654791058800	269	2-Seleccionar Ciudades	200	OK	Flujo compra de tiquetes 1-10	text	true		1500	544	20	20	https://www.blazedemo.com/reserve.php	269	0	0
+1654791060289	263	3-Seleccionar Vuelo	200	OK	Flujo compra de tiquetes 1-13	text	true		1757	602	20	20	https://www.blazedemo.com/purchase.php	262	0	0
+1654791062299	259	2-Seleccionar Ciudades	200	OK	Flujo compra de tiquetes 1-9	text	true		1388	544	20	20	https://www.blazedemo.com/reserve.php	259	0	0
+1654791065888	279	3-Seleccionar Vuelo	200	OK	Flujo compra de tiquetes 1-7	text	true		1787	602	20	20	https://www.blazedemo.com/purchase.php	279	0	0
+1654791067158	311	4-Llenar Formulario Datos Personales	200	OK	Flujo compra de tiquetes 1-15	text	true		1591	753	20	20	https://www.blazedemo.com/confirmation.php	311	0	0
+1654791068842	265	3-Seleccionar Vuelo	200	OK	Flujo compra de tiquetes 1-11	text	true		1666	602	19	19	https://www.blazedemo.com/purchase.php	264	0	0
+1654791069266	349	2-Seleccionar Ciudades	200	OK	Flujo compra de tiquetes 1-3	text	true		1637	544	19	19	https://www.blazedemo.com/reserve.php	349	0	0
+1654791070923	713	2-Seleccionar Ciudades	200	OK	Flujo compra de tiquetes 1-5	text	false	The operation lasted too long: It took 713 milliseconds, but should not have lasted longer than 600 milliseconds.	1469	544	19	19	https://www.blazedemo.com/reserve.php	713	0	0
+1654791072069	365	2-Seleccionar Ciudades	200	OK	Flujo compra de tiquetes 1-19	text	true		1470	544	19	19	https://www.blazedemo.com/reserve.php	364	0	0
+1654791072409	271	3-Seleccionar Vuelo	200	OK	Flujo compra de tiquetes 1-20	text	true		1807	602	19	19	https://www.blazedemo.com/purchase.php	270	0	0
+1654791073418	292	3-Seleccionar Vuelo	200	OK	Flujo compra de tiquetes 1-1	text	true		1653	602	19	19	https://www.blazedemo.com/purchase.php	291	0	0
+1654791073475	262	3-Seleccionar Vuelo	200	OK	Flujo compra de tiquetes 1-6	text	true		1679	602	19	19	https://www.blazedemo.com/purchase.php	260	0	0
+1654791073873	255	3-Seleccionar Vuelo	200	OK	Flujo compra de tiquetes 1-8	text	true		1671	602	19	19	https://www.blazedemo.com/purchase.php	255	0	0
+1654791081748	858	4-Llenar Formulario Datos Personales	200	OK	Flujo compra de tiquetes 1-14	text	false	The operation lasted too long: It took 858 milliseconds, but should not have lasted longer than 600 milliseconds.	1492	730	19	19	https://www.blazedemo.com/confirmation.php	858	0	316
+1654791084746	630	3-Seleccionar Vuelo	200	OK	Flujo compra de tiquetes 1-17	text	false	The operation lasted too long: It took 630 milliseconds, but should not have lasted longer than 600 milliseconds.	1733	602	18	18	https://www.blazedemo.com/purchase.php	629	0	0
+1654791085058	598	3-Seleccionar Vuelo	200	OK	Flujo compra de tiquetes 1-12	text	true		1808	602	18	18	https://www.blazedemo.com/purchase.php	598	0	315
+1654791085242	743	4-Llenar Formulario Datos Personales	200	OK	Flujo compra de tiquetes 1-20	text	false	The operation lasted too long: It took 743 milliseconds, but should not have lasted longer than 600 milliseconds.	1424	753	18	18	https://www.blazedemo.com/confirmation.php	743	0	319
+1654791086054	590	3-Seleccionar Vuelo	200	OK	Flujo compra de tiquetes 1-16	text	true		1716	602	17	17	https://www.blazedemo.com/purchase.php	589	0	309
+1654791086576	394	3-Seleccionar Vuelo	200	OK	Flujo compra de tiquetes 1-2	text	true		1837	602	17	17	https://www.blazedemo.com/purchase.php	393	0	0
+1654791088357	270	3-Seleccionar Vuelo	200	OK	Flujo compra de tiquetes 1-3	text	true		1705	602	17	17	https://www.blazedemo.com/purchase.php	269	0	0
+1654791088378	624	3-Seleccionar Vuelo	200	OK	Flujo compra de tiquetes 1-4	text	false	The operation lasted too long: It took 624 milliseconds, but should not have lasted longer than 600 milliseconds.	1821	602	17	17	https://www.blazedemo.com/purchase.php	624	0	326
+1654791089896	383	4-Llenar Formulario Datos Personales	200	OK	Flujo compra de tiquetes 1-8	text	true		1454	733	17	17	https://www.blazedemo.com/confirmation.php	383	0	0
+1654791090677	328	3-Seleccionar Vuelo	200	OK	Flujo compra de tiquetes 1-9	text	true		1659	602	16	16	https://www.blazedemo.com/purchase.php	328	0	0
+1654791090657	603	4-Llenar Formulario Datos Personales	200	OK	Flujo compra de tiquetes 1-18	text	false	The operation lasted too long: It took 603 milliseconds, but should not have lasted longer than 600 milliseconds.	1563	733	16	16	https://www.blazedemo.com/confirmation.php	602	0	309
+1654791090909	636	3-Seleccionar Vuelo	200	OK	Flujo compra de tiquetes 1-10	text	false	The operation lasted too long: It took 636 milliseconds, but should not have lasted longer than 600 milliseconds.	1821	602	15	15	https://www.blazedemo.com/purchase.php	633	0	315
+1654791091542	621	4-Llenar Formulario Datos Personales	200	OK	Flujo compra de tiquetes 1-11	text	false	The operation lasted too long: It took 621 milliseconds, but should not have lasted longer than 600 milliseconds.	1453	751	15	15	https://www.blazedemo.com/confirmation.php	620	0	315
+1654791093377	584	4-Llenar Formulario Datos Personales	200	OK	Flujo compra de tiquetes 1-13	text	true		1420	733	14	14	https://www.blazedemo.com/confirmation.php	583	0	308
+1654791095739	632	4-Llenar Formulario Datos Personales	200	OK	Flujo compra de tiquetes 1-7	text	false	The operation lasted too long: It took 632 milliseconds, but should not have lasted longer than 600 milliseconds.	1567	734	13	13	https://www.blazedemo.com/confirmation.php	631	0	306
+1654791098104	288	3-Seleccionar Vuelo	200	OK	Flujo compra de tiquetes 1-5	text	true		1661	602	12	12	https://www.blazedemo.com/purchase.php	288	0	0
+1654791098753	375	3-Seleccionar Vuelo	200	OK	Flujo compra de tiquetes 1-19	text	true		1836	602	12	12	https://www.blazedemo.com/purchase.php	374	0	0
+1654791101567	273	4-Llenar Formulario Datos Personales	200	OK	Flujo compra de tiquetes 1-10	text	true		1568	753	12	12	https://www.blazedemo.com/confirmation.php	271	0	0
+1654791107409	732	4-Llenar Formulario Datos Personales	200	OK	Flujo compra de tiquetes 1-6	text	false	The operation lasted too long: It took 732 milliseconds, but should not have lasted longer than 600 milliseconds.	1573	751	11	11	https://www.blazedemo.com/confirmation.php	732	0	304
+1654791109980	915	4-Llenar Formulario Datos Personales	200	OK	Flujo compra de tiquetes 1-9	text	false	The operation lasted too long: It took 915 milliseconds, but should not have lasted longer than 600 milliseconds.	1525	730	10	10	https://www.blazedemo.com/confirmation.php	914	0	318
+1654791110940	433	4-Llenar Formulario Datos Personales	200	OK	Flujo compra de tiquetes 1-12	text	true		1504	734	9	9	https://www.blazedemo.com/confirmation.php	433	0	0
+1654791112282	569	4-Llenar Formulario Datos Personales	200	OK	Flujo compra de tiquetes 1-3	text	true		1588	733	8	8	https://www.blazedemo.com/confirmation.php	568	0	183
+1654791112341	829	4-Llenar Formulario Datos Personales	200	OK	Flujo compra de tiquetes 1-1	text	false	The operation lasted too long: It took 829 milliseconds, but should not have lasted longer than 600 milliseconds.	1444	751	7	7	https://www.blazedemo.com/confirmation.php	829	0	312
+1654791112987	651	4-Llenar Formulario Datos Personales	200	OK	Flujo compra de tiquetes 1-17	text	false	The operation lasted too long: It took 651 milliseconds, but should not have lasted longer than 600 milliseconds.	1574	734	6	6	https://www.blazedemo.com/confirmation.php	651	0	332
+1654791120981	333	4-Llenar Formulario Datos Personales	200	OK	Flujo compra de tiquetes 1-16	text	true		1558	751	5	5	https://www.blazedemo.com/confirmation.php	333	0	0
+1654791122717	651	4-Llenar Formulario Datos Personales	200	OK	Flujo compra de tiquetes 1-2	text	false	The operation lasted too long: It took 651 milliseconds, but should not have lasted longer than 600 milliseconds.	1477	734	4	4	https://www.blazedemo.com/confirmation.php	651	0	337
+1654791122792	681	4-Llenar Formulario Datos Personales	200	OK	Flujo compra de tiquetes 1-19	text	false	The operation lasted too long: It took 681 milliseconds, but should not have lasted longer than 600 milliseconds.	1449	730	3	3	https://www.blazedemo.com/confirmation.php	681	0	318
+1654791127113	529	4-Llenar Formulario Datos Personales	200	OK	Flujo compra de tiquetes 1-4	text	true		1413	730	2	2	https://www.blazedemo.com/confirmation.php	529	0	0
+1654791129495	790	4-Llenar Formulario Datos Personales	200	OK	Flujo compra de tiquetes 1-5	text	false	The operation lasted too long: It took 790 milliseconds, but should not have lasted longer than 600 milliseconds.	1405	753	1	1	https://www.blazedemo.com/confirmation.php	789	0	309
